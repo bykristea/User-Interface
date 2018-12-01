@@ -64,3 +64,128 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 877px;
+	margin: 0 auto;
+}
+
+header {
+	height: 80px;
+	/* line-height: 38px; */
+	/* width: px; */
+	/* margin-bottom: 100px; */
+	/* position: fixed; */
+	/* background-color: grey */
+}
+header:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+nav {
+display: inline-block;
+width: 600px;
+vertical-align: middle;
+/* margin: 0; */
+/* padding: 0; */
+/* line-height: normal; */
+}
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: lightgrey;
+	/* margin: 25px; */
+	/* margin-right: 80px; */
+	font-size: 16px;
+	width: 16%;
+	/* line-height: normal; */
+}
+
+.logo{
+	/* vertical-align: baseline; */
+	display: inline-block;
+	vertical-align: middle;
+	/* line-height: normal; */
+	/* width: 277px; */
+}
+.hero {
+	/* height: 100%; */
+	margin: 0 0 75px;
+}
+
+.title {
+	text-align: center;
+	margin-top: 65px;
+	/* height: 379px; */
+	/* vertical-align: center; */
+	
+}
+
+.title h1 {
+	font-size: 80px;
+}
+.title a {
+	border: 1px solid black;
+	padding: 0px 30px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+}
+
+/* main section */
+main {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+main, .middle-img {
+	padding: 40px 0;
+
+}
+
+.half div, .thirds div {
+	white-space: normal;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+}
+
+.half {
+	white-space: nowrap;
+	/* background: yellow; */
+	
+}
+
+.half div   {
+	width: 50%;
+}
+
+.thirds div {
+	width: 33%;
+}
+
+/* footer */
+footer {
+	margin-top: 40px;
+}
+
+footer a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.phone {
+	margin: 24px 0;
+	
+}
+
+#copyright {
+	text-align: center;
+	margin: 48px 0 108px;
+	font-size: 14px;
+}
