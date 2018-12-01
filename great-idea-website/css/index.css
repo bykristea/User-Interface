@@ -72,6 +72,11 @@ body {
 
 header {
 	height: 80px;
+	width: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	  
 	/* line-height: 38px; */
 	/* width: px; */
 	/* margin-bottom: 100px; */
@@ -83,6 +88,7 @@ header:before {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
+ 
 }
 
 nav {
@@ -113,7 +119,7 @@ nav a {
 }
 .hero {
 	/* height: 100%; */
-	margin: 0 0 75px;
+	margin: 125px 0 75px;
 }
 
 .title {
